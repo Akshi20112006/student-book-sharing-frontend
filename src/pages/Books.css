@@ -1,0 +1,142 @@
+.books-page {
+    min-height: 100vh;
+    background: #f6f7fb;
+    padding: 35px;
+}
+
+.books-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.eyebrow {
+    color: #6d5dfc;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.books-header h1 {
+    margin: 5px 0;
+    font-size: 30px;
+}
+
+.books-header p {
+    color: #858d9b;
+    font-size: 13px;
+}
+
+.add-book-btn,
+.view-btn {
+    border: none;
+    background: #6d5dfc;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.books-toolbar {
+    background: white;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    border: 1px solid #e8eaf0;
+}
+
+.books-toolbar input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.book-card {
+    background: white;
+    border: 1px solid #e8eaf0;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.book-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+.book-cover {
+    height: 150px;
+    background: linear-gradient(135deg, #6d5dfc, #8f82ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.book-card-content {
+    padding: 18px;
+}
+
+.book-card h2 {
+    font-size: 16px;
+    margin: 0 0 6px;
+}
+
+.author {
+    color: #6d5dfc;
+    font-size: 12px;
+}
+
+.subject {
+    display: inline-block;
+    background: #f0efff;
+    color: #6d5dfc;
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-size: 10px;
+}
+
+.edition {
+    color: #9299a6;
+    font-size: 11px;
+}
+
+.view-btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.empty-books,
+.message {
+    background: white;
+    border-radius: 15px;
+    padding: 50px;
+    text-align: center;
+}
+
+.empty-books div {
+    font-size: 45px;
+}
+
+.empty-books h2 {
+    margin-bottom: 5px;
+}
+
+.empty-books p {
+    color: #9299a6;
+}
+
+.error {
+    color: #dc2626;
+}

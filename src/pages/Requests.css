@@ -1,0 +1,114 @@
+.requests-page {
+    min-height: 100vh;
+    background: #f6f7fb;
+    padding: 40px;
+}
+
+.requests-header {
+    margin-bottom: 30px;
+}
+
+.requests-header p {
+    color: #6d5dfc;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.requests-header h1 {
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.requests-header span {
+    color: #8b93a3;
+    font-size: 13px;
+}
+
+.request-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.request-card {
+    background: white;
+    border: 1px solid #e8eaf0;
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.request-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 1;
+}
+
+.request-book {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: #f0efff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.request-info h3 {
+    margin: 0 0 5px;
+    font-size: 15px;
+}
+
+.request-info p {
+    margin: 0;
+    color: #9299a6;
+    font-size: 11px;
+}
+
+.pending {
+    background: #fff7ed;
+    color: #c2410c;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.request-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.request-actions button {
+    padding: 9px 14px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+
+.accept {
+    background: #ecfdf3;
+    color: #16804a;
+}
+
+.reject {
+    background: #fff1f2;
+    color: #dc2626;
+}
+
+.request-empty {
+    background: white;
+    padding: 70px 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.request-icon {
+    font-size: 45px;
+}

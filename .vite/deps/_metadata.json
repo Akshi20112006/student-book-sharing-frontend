@@ -1,0 +1,42 @@
+{
+  "hash": "4f5cdd1b",
+  "configHash": "ec4b963c",
+  "lockfileHash": "7be1aeaf",
+  "browserHash": "713e05d2",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d4ec7951",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "73b32f9d",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "55b5c8c0",
+      "needsInterop": true
+    },
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "0a498018",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "react-dom-maye0PxS": {
+      "file": "react-dom-maye0PxS.js",
+      "isDynamicEntry": false
+    },
+    "rolldown-runtime-BPOCksWG": {
+      "file": "rolldown-runtime-BPOCksWG.js",
+      "isDynamicEntry": false
+    }
+  }
+}
